@@ -34,6 +34,7 @@ export const PokemonList = observer(() => {
     const buttonNext = () => {
         setCurrentPage(nextPage)
     };
+
     const buttonPrev = () => {
         setCurrentPage(prevPage);
     };
